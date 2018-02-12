@@ -12,36 +12,46 @@ You will find this is far easier than the opposite task of using CSS to cram you
 
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
 /* Start your base/mobile styles here */
+
 img {
   max-width: 100%;
 }
 
-p{
+p {
   font-size: 1em;
   text-align: justify;
-}
+  }
 
-  {
-    /* Sets default font-size to 16px, ensuring 1em = 16px; */
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    width: 100%
-    vertical-align: baseline;
-    }
+{
+  /* Sets default font size to 16px, ensuring 1em = 16px; */
+font-size: 16px;
+margin: 0;
+padding: 0;
+border: 0;
+width: 100%;
+vertical-align: baseline;
+}
 
 /* Tablet/Desktop overrides */
 
 @media(min-width: 681px) {
     /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
 }
+
+
+@media(min-width: 729px) {
+    /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
 img {
   margin: 0 auto;
   display: block;
 }
 
+h1 {
+  text-align: center;
+}
 
-@media(min-width: 729px) {
-    /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
+p {
+  margin: 0 auto;
+  width: 60%;
+  padding-top: 1%;
 }
