@@ -13,7 +13,15 @@ You will find this is far easier than the opposite task of using CSS to cram you
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
 /* Start your base/mobile styles here */
 
-
+{
+  /* Sets default font size to 16px, ensuring 1em = 16px; */
+font-size: 16px;
+margin: 0;
+padding: 0;
+border: 0;
+width: 100%;
+vertical-align: baseline;
+}
 /* Tablet/Desktop overrides */
 
 @media(min-width: 681px) {
@@ -31,6 +39,5 @@ img {
 p {
   font-size: 1em;
   text-align: justify;
-  margin: auto;
 }
 }
